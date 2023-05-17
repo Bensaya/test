@@ -5,11 +5,6 @@ def calculate_median(numbers):
         return (sorted_numbers[n // 2 - 1] + sorted_numbers[n // 2]) / 2
     else:
         return sorted_numbers[n // 2]
-def calculate_average(numbers):
-    total = sum(numbers)
-    return total / len(numbers)
 data = [1, 2, 3, 4, 5]
 median = calculate_median(data)
-average = calculate_average(data)
 print(f"Median: {median}")
-print(f"Median: {average}")
